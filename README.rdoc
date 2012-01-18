@@ -1,0 +1,27 @@
+= mongodb_console
+
+A Rake task for opening a MongoDB[http://mongodb.org/] console for the current Rails.env
+
+== Prerequisites
+
+Rails must already be configured to use either MongoMapper[http://mongomapper.com/] or Mongoid[http://mongoid.org/].
+
+Please get in touch if you'd like to see added support for another MongoDB object mapper (ODM).
+
+== Installation
+
+  gem install mongodb_console
+
+== Rake Tasks
+
+To open a MongoDB console for the current Rails.env:
+
+  rake db:mongo:console
+
+== License
+
+See MIT-LICENSE for details.
+
+== Copyright
+
+Copyright (c) 2012 Chris Fuller.
