@@ -7,10 +7,11 @@ require "mongodb_console/version"
 Gem::Specification.new do |s|
   s.name        = "mongodb_console"
   s.version     = MongodbConsole::VERSION
-  s.authors     = ["Chris Fuller"]
+  s.authors     = ["Christopher Fuller"]
   s.email       = ["git@chrisfuller.me"]
   s.homepage    = "http://github.com/chrisfuller/mongodb_console"
-  s.summary     = "A Rake task for opening a MongoDB console for the current Rails.env"
+  s.summary     = "A Rake task for opening a MongoDB console for the current Rails.env (keywords: mongo db mongodb database rake console rails)"
+  s.description = "A Rake task for opening a MongoDB console for the current Rails.env (keywords: mongo db mongodb database rake console rails)"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
