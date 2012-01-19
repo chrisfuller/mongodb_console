@@ -1,4 +1,6 @@
-= mongodb_console
+= MongoDBConsole
+
+== Description
 
 A Rake task for opening a MongoDB[http://mongodb.org/] console for the current Rails.env
 
@@ -10,13 +12,19 @@ Please get in touch if you'd like to see added support for another MongoDB objec
 
 == Installation
 
-  gem install mongodb_console
+  $ gem install mongodb_console
+
+== Rails Configuration
+
+Add to Gemfile:
+
+  gem "mongodb_console"
 
 == Rake Tasks
 
 To open a MongoDB console for the current Rails.env:
 
-  rake db:mongo:console
+  $ rake db:mongo:console
 
 == License
 
