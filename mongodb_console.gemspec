@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Christopher Fuller"]
   s.email       = ["git@chrisfuller.me"]
   s.homepage    = "http://github.com/chrisfuller/mongodb_console"
-  s.summary     = "A Rake task for opening a MongoDB console for the current Rails.env\n(keywords: mongo db mongodb database rails rake console)"
-  s.description = "A Rake task for opening a MongoDB console for the current Rails.env\n(keywords: mongo db mongodb database rails rake console)"
+  s.summary     = "A Rake task for opening a MongoDB console for the current Rails.env\n\n(keywords: mongo db mongodb database rails rake console)"
+  s.description = "A Rake task for opening a MongoDB console for the current Rails.env\n\n(keywords: mongo db mongodb database rails rake console)"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
