@@ -1,4 +1,4 @@
-= MongoDBConsole
+= mongodb_console
 
 A Rake task for opening a MongoDB[http://mongodb.org/] console for the current Rails.env
 
