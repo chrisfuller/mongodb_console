@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mongodb_console (0.0.7)
+    mongodb_console (0.0.8)
       mongo
       rails (>= 3.1)
 
