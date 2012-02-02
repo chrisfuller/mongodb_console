@@ -15,8 +15,8 @@ namespace :db do
       
       if conn
         args = []
-        args << "--username=#{conn.username}" if conn.username
-        args << "--password=#{conn.password}" if conn.password
+        args << "--username=#{conn.username}" if conn.username rescue nil
+        args << "--password=#{conn.password}" if conn.password rescue nil
         args << "--host=#{conn.host}"
         args << "--port=#{conn.port.to_s}"
         args << name
