@@ -4,7 +4,7 @@ A gem that includes a Rake task for opening a MongoDB[http://mongodb.org/] conso
 
 == Prerequisites
 
-Rails must already be configured to use either Mongoid[http://mongoid.org/] or MongoMapper[http://mongomapper.com/].
+Rails must be configured to use either Mongoid[http://mongoid.org/] or MongoMapper[http://mongomapper.com/].
 
 Please get in touch if you'd like to see added support for another MongoDB object mapper (ODM).
 
@@ -16,7 +16,7 @@ Please get in touch if you'd like to see added support for another MongoDB objec
 
 Add to Gemfile:
 
-  gem "mongodb_console"
+  gem 'mongodb_console'
 
 == Rake Tasks
 
